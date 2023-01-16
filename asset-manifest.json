@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Guesswords/static/css/main.3ef3efa5.css",
+    "main.js": "/Guesswords/static/js/main.44284f3d.js",
+    "static/js/787.cbb8a3c1.chunk.js": "/Guesswords/static/js/787.cbb8a3c1.chunk.js",
+    "static/media/penrose_v4.gif": "/Guesswords/static/media/penrose_v4.e1ed1f489cdfcabee3ba.gif",
+    "index.html": "/Guesswords/index.html",
+    "main.3ef3efa5.css.map": "/Guesswords/static/css/main.3ef3efa5.css.map",
+    "main.44284f3d.js.map": "/Guesswords/static/js/main.44284f3d.js.map",
+    "787.cbb8a3c1.chunk.js.map": "/Guesswords/static/js/787.cbb8a3c1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ef3efa5.css",
+    "static/js/main.44284f3d.js"
+  ]
+}
