@@ -1,24 +1,24 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import Game from './components/game';
+import './components/guess.css'
+import { useState,useEffect } from 'react';
+import Load from './components/load';
 
 function App() {
-  return (
+  const[loa,setLoa]=useState<boolean>(true)
+  useEffect(()=>{
+    setTimeout(()=>{
+      setLoa(false)
+    },6000)
+      },[])
+  return ( <div>
+ { loa===true? <Load/>
+ :
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Game/>
+    </div>
+}
     </div>
   );
 }
